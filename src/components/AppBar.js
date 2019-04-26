@@ -5,11 +5,12 @@ const AppBar = ({ title = "Transcribe" }) => (
   <div
     style={{
       "-webkit-app-region": "drag",
-      backgroundColor: Colors.background,
+      backgroundColor: Colors.backgroundDark,
       height: 19,
       textAlign: "center",
-      color: Colors.light,
-      padding: 1.5
+      color: Colors.light3,
+      padding: "1.5px 0",
+      width: "100%"
     }}
   >
     {title}
